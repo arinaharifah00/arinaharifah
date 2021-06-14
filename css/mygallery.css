@@ -1,0 +1,154 @@
+
+body {
+  background-color: lavenderblush;
+}
+h1 {
+  background-color: deeppink;
+   padding: 30px;
+   margin: 0;
+}
+h1.impact {
+    font-family: 'Charmonman';font-size: 30px;
+}
+p {
+  background-color: pink;
+  padding: 10px;
+   margin: 5;
+}
+p.impact {
+  font-family: 'Charmonman';font-size: 20px;
+}
+
+div {
+  background-color: lavenderblush;
+}
+
+img.one {
+ height: 494px;
+  width: 950px;
+}
+
+img.two {
+  height: 494px;
+  width: 950px;
+}
+
+img.three {
+  height: 494px;
+  width: 950px;
+}
+img.four {
+  height: 494px;
+  width: 1000px;
+}
+img.five {
+  height: 494px;
+  width: 950px;
+}
+img.six {
+  height: 494px;
+  width: 950px;
+}
+img.seven {
+  height: 480px;
+  width: 600px;
+}
+img.eight {
+  height: 494px;
+  width: 950px;
+}
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  color: black;
+  font-size: px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  background-color: pink;
+  color: yellow;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: pink;
+  color: black;
+}
+
+.footer {
+  background-color: deeppink;
+  color: black;
+  text-align: center;
+  font-size: 10px;
+  padding: 0px;
+  margin: 10px;
+}
+footer.impact {
+  font-family: 'Charmonman';font-size: 20px;
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
